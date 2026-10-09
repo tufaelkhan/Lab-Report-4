@@ -1,0 +1,57 @@
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Editor / IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== Environment & secrets =====
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+dist/
+build/
+
+# ===== Node.js =====
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# ===== LaTeX build files =====
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+
+# ===== Data / models (large files) =====
+*.csv
+*.h5
+*.pt
+*.pth
+*.ckpt
+data/
+models/
+
+# ===== Logs & temp =====
+*.log
+*.tmp
+tmp/
